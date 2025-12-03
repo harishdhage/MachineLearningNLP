@@ -1,0 +1,12 @@
+Natural Language process
+Tokenization is process of converting the Paragraph/Sentence into tokens.
+In simple word breaking the Paragraph into small unique objects.
+Below are the synonims for these actions
+1. Corpus - Paragraph
+2. Documents - Sentence
+3. Vocabulary - Unique Word
+4. Words
+
+To do these job, we need to use any of below libraries
+1. NLTK
+2. Spacy

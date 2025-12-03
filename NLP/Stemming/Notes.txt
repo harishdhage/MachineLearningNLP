@@ -1,0 +1,5 @@
+Stemming is the process of producing morphological variants of a root/base word.
+ Stemming programs are commonly referred to as stemming algorithms or stemmers.
+  A stemming algorithm reduces the words “chocolates”, “chocolatey”, and 
+  “choco” to the root word, “chocolate” and “retrieval”, “retrieved”, “retrieves”
+   reduce to the stem “retrieve”.
