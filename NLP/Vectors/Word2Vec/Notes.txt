@@ -1,0 +1,35 @@
+Word2Vec is a word embedding technique in natural language processing (NLP) that 
+allows words to be represented as vectors in a continuous vector space. Researchers 
+at Google developed word2Vec that maps words to high-dimensional vectors to capture 
+the semantic relationships between words. It works on the principle that words with 
+similar meanings should have similar vector representations. Word2Vec utilizes two 
+architectures:
+
+1. CBOW (Continiour Bag Of Words)
+The CBOW model predicts the current word given context words within a specific window. 
+The input layer contains the context words and the output layer contains the current
+ word. The hidden layer contains the dimensions we want to represent the current 
+ word present at the output layer.
+This is usefull for small data set.
+
+2. Skip gram
+The Skip gram predicts the surrounding context words within specific window given 
+current word. The input layer contains the current word and the output layer 
+contains the context words. The hidden layer contains the number of dimensions 
+in which we want to represent current word present at the input layer.
+It is the opposite process of CBOW.
+This is usefull for large data set.
+
+Artifitial Nueral Network will trained from Tabular Data with below techinique
+1. Classification
+2. Regression
+
+Ex. House Price predicts
+    f1          f2           y
+House size  Num of rooms    Price
+530             3           520640
+702             4           1043245
+455             2.5         480254
+
+Here by using f1 and f2 as input data will predict the price. 
+By changing the order of input data will change the output.

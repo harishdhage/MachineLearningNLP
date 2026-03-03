@@ -1,0 +1,4 @@
+Lemmitization technique is like stemming. The output will get after Lemmitization
+is lemma which is root word. Here the output will not loose it's meaning.
+
+NLTK provides WordNetLimmitization class.

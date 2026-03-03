@@ -1,0 +1,12 @@
+Its is process of identifying unique words. This will helps to convert text to vector.
+
+Advantage
+1. Its easy to implement using python.
+Libraries - OneHotEncoder, Panda - pd.get_dummies()
+
+Dis-Advantage
+1. Sparse matrix - Overfitting (Lot of 1's and 0's)(generated vector code is same length, 
+hence its difficutl to train)
+2. No symantic meaning captured (How some word is important, how similar to other word and 
+how related to noxt/other word)
+3. Out of Vocabulary (New words is added in test data, then it wont work)

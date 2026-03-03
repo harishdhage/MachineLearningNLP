@@ -1,0 +1,1 @@
+Stopwords is basically used to clean the data and store it to vectores.

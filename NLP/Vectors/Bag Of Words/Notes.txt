@@ -1,0 +1,20 @@
+It is used to train Sentiment Analysis like spam email identification.
+
+process : 
+convert whole string to lower case -> Apply Stopwords -> Apply BOW to generate Vector
+
+Advantages
+1. We get fixed size (vector size) input
+2. Simple and intutive
+
+Dis-Advantage
+1. Spars matrix or array lead to Overfitting
+2. Ordering of the word is changed which lead change/lose the meaning of the sentence
+3. Out of Vocabulary (New word is not considered)
+4. symantic meaning is not captured (which word is important meaning in the sentence 
+and which word need to come first)
+
+To overcome cons, we can use below techinique
+1. n-gram
+2. Text-normalisation
+3. TF-IDF

@@ -2,3 +2,8 @@ pandas
 numpy
 nltk
 jupyter
+gensim
+scikit-learn
+tensorflow
+tensorboard
+matplotlib
