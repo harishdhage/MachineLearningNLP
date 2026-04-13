@@ -1,0 +1,10 @@
+We are having n num of free source libraries like PyTorch, TensorFlow etc.
+Any 1 of these librabry is enough.
+Here we will be using Keras library in TensorFlow to learn ANN, RNN
+
+We start with Classification problem
+Data : Churn Modelling Dataset
+
+scaler
+fit_transform() = learn parameters from the data then transform it; 
+transform() = apply an already-learned transform to data.
