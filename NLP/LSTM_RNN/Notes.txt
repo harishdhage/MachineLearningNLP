@@ -1,0 +1,37 @@
+LSTM (Long Short Term Memory RNN)
+For full understanding go through the blog - https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+Problems with RNN
+Earlier in RNN we found that it wont support Long Term Dependency due to Vanishing Gradient.
+It supports for short sentences. If there is big sentence and from that to predict the 
+output it fails due vanishing Gradient.
+
+Why LSTM RNN
+Its support to predict output from very big sentences
+
+How LSTM RNN solving Problems
+It works by combination of both Short and Long Term Memory in single hidden nueron
+1. Long Term Memory - It carries the memory till the out-put or requirement basis
+2. Short Term Memory - This will carry memory for short term and removes which are not needed for long term
+
+LSTM Architecture
+
+Understanding the Working of LSTM RNN 
+Forget Gate
+Step1 : Each nueron takes previous nueron's output and current input combined as input vector
+Step2 : Another input here is Memory cell from previous nueron
+Step3 : By taking above 2 steps input to compute with Pointwise operation to calculate which word is repeated,
+then that will be removed from step 1 input to produce new input input. 
+
+Input Gate
+Here it will calculate Step1 & Step2 to combined and perform Pointwise operation to produce vector I(t)
+
+Candidate Gate
+Here also it will calculate Step1 & Step2 to combined and perform Pointwise operation to produce vector output.
+By this output it will act on to Candidate Momery C(t) is required to be added with new data or not
+
+Output Gate
+Here it will performs pointwise operation on C(t) and Step1&Step2 by applying to tanh to produce the h(t) 
+which will be short term memory input data for next nueron.
+
+

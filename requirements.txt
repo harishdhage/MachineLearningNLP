@@ -9,4 +9,3 @@ tensorboard>=2.13
 matplotlib>=3.8
 streamlit>=1.26
 scikeras>=0.12
-scikeras>=0.24.2
