@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d19e5123-2b0a-4a22-9b9b-28f144db1dda" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/Lemmitization/LemmitizeTech.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Lemmitization/LemmitizeTech.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/Lemmitization/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Lemmitization/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/NamedEntityRecognization/NamedEntityRec.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NamedEntityRecognization/NamedEntityRec.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/Stopwords/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Stopwords/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/Stopwords/StopwordsTechq.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Stopwords/StopwordsTechq.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="d19e5123-2b0a-4a22-9b9b-28f144db1dda" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
