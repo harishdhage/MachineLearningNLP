@@ -15,6 +15,6 @@ Dis-Advantage
 and which word need to come first)
 
 To overcome cons, we can use below techinique
-1. n-gram
+1. n-gram - it is used to unigram, 2gram, trigram combination of words to find the frequency
 2. Text-normalisation
 3. TF-IDF

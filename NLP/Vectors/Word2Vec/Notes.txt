@@ -20,7 +20,8 @@ in which we want to represent current word present at the input layer.
 It is the opposite process of CBOW.
 This is usefull for large data set.
 
-Artifitial Nueral Network will trained from Tabular Data with below techinique
+i. Artifitial Nueral Network(ANN) 
+will trained from Tabular Data with below techinique
 1. Classification
 2. Regression
 
@@ -33,3 +34,14 @@ House size  Num of rooms    Price
 
 Here by using f1 and f2 as input data will predict the price. 
 By changing the order of input data will change the output.
+
+ii. Convenutional Nueral Network (CNN)
+Here data in the form of image, video. We can do the tasks like image Classification
+
+iii. NLP in DeepLearning
+Sequential Data 
+a. Text Generation
+b. Chatbot conversation
+c. Language Translator
+d. Auto-suggestion
+e. Sales Data

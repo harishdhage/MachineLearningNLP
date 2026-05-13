@@ -6,7 +6,7 @@ Other way it producing morphological variants of a root/base word.
    reduce to the stem “retrieve”.
 
    Types
-   1. PorterStemmer
+   1. PorterStemmer - oldest form of stemming techinique
    2. RegexStemmer
-   3. SnowballStemmer
-   4. LancasterStemmer
+   3. SnowballStemmer - Its advanced over PorterStemmer, support many language.
+   4. LancasterStemmer - Its faster, not much accurate

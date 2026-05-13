@@ -12,6 +12,7 @@ To do these job, we need to use any of below libraries
 2. Spacy
 
 NLTK
-1. word_tokenize - which will split each word in sentence.
+1. sent_tokenize - which will split the corpus/doc into list of sentence.
+2. word_tokenize - which will split corpus/doc into list of words.
 2. wordpunct_tokenize - 
 3. TreebankWordTokenize - 
